@@ -29,8 +29,8 @@ end
 
 def sorted_matrix
   arr= [
-    CONVENTIONAL_PRODUCE,
-    ORGANIC_PRODUCE
+    CONVENTIONAL_PRODUCE.sort,
+    ORGANIC_PRODUCE.sort
     ]
   
   # Using Array literal syntax only, build another nested array that 
